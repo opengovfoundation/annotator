@@ -1,4 +1,5 @@
 h = require('helpers')
+assert = require('assertive-chai').assert
 Annotator = require('annotator')
 Adder = require('../../../src/plugin/adder')
 Range = require('xpath-range').Range

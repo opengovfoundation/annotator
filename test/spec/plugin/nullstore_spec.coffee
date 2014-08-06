@@ -1,3 +1,4 @@
+assert = require('assertive-chai').assert
 NullStore = require('../../../src/plugin/nullstore')
 
 describe 'NullStore', ->

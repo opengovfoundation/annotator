@@ -1,5 +1,6 @@
 BackboneEvents = require('backbone-events-standalone')
 h = require('helpers')
+assert = require('assertive-chai').assert
 TextSelector = require('../../../src/plugin/textselector')
 Range = require('xpath-range').Range
 Util = require('../../../src/util')
@@ -65,7 +66,7 @@ describe 'Text Selector plugin', ->
       Util.getGlobal().getSelection.restore()
 
     it "should trigger a rawSelection event if a selection was made (on mouseup), and event should have the right type, and should carry the list of normalized ranges", (done) ->
-      # Prepare to receive the event  
+      # Prepare to receive the event
       core.on('rawSelection', (raw) ->
         try
           assert.equal(raw.type, "text ranges")
@@ -79,15 +80,15 @@ describe 'Text Selector plugin', ->
       $(Util.getGlobal().document.body).trigger('mouseup')
 
     it "should trigger an empty selection event if the selection was empty (on mouseup)", (done) ->
-      mockSelection.removeAllRanges()        
-      # Preppare to receive the event        
+      mockSelection.removeAllRanges()
+      # Preppare to receive the event
       core.on('selection', (annotationSkeleton) ->
         try
           assert.equal(annotationSkeleton, null)
           done()
         catch ex
           done(ex)
-      )        
+      )
       # Trigger the event
       $(Util.getGlobal().document.body).trigger('mouseup')
 

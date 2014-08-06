@@ -1,3 +1,4 @@
+assert = require('assertive-chai').assert
 Factory = require('../../src/factory')
 
 class MockAnnotatorSimple

@@ -1,4 +1,5 @@
 h = require('helpers')
+assert = require('assertive-chai').assert
 
 Annotator = require('annotator')
 Util = Annotator.Util

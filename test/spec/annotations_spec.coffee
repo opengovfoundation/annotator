@@ -1,3 +1,4 @@
+assert = require('assertive-chai').assert
 Events = require('../../src/events')
 AnnotationRegistry = require('../../src/annotations')
 NullStore = require('../../src/plugin/nullstore')

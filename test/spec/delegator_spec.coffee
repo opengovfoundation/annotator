@@ -1,4 +1,5 @@
 h = require('helpers')
+assert = require('assertive-chai').assert
 Delegator = require('../../src/delegator')
 $ = require('../../src/util').$
 
