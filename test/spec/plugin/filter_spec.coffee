@@ -31,10 +31,16 @@ describe 'Filter plugin', ->
     afterEach ->
       filterElement.remove()
 
-    it "should call Filter#_onFilterFocus when a filter input is focussed", ->
-      sinon.spy(plugin, '_onFilterFocus')
-      filterElement.find('input').focus()
-      assert(plugin._onFilterFocus.calledOnce)
+    # Firefox does not call the onFocus event if the window does not have focus.
+    # As a result, we cannot automate this test.
+    # Info:
+    #   https://bugzilla.mozilla.org/show_bug.cgi?id=566671
+    #   https://github.com/openannotation/annotator/issues/406
+    if !(/firefox/i.test( window.navigator.userAgent ))
+      it "should call Filter#_onFilterFocus when a filter input is focussed", ->
+        sinon.spy(plugin, '_onFilterFocus')
+        filterElement.find('input').focus()
+        assert(plugin._onFilterFocus.calledOnce)
 
     it "should call Filter#_onFilterBlur when a filter input is blurred", ->
       sinon.spy(plugin, '_onFilterBlur')
