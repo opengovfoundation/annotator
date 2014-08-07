@@ -3,6 +3,8 @@ Annotator
 
 |Build Status| |Stories in Ready|
 
+|Browser Status|
+
 Annotator is a JavaScript library for building annotation systems on the web. It
 provides a set of tools to annotate text (and other content) in webpages, and to
 save those annotations to a remote storage system. For a simple demonstration,
@@ -104,3 +106,5 @@ encouraged to use for any questions and discussions. We can also be found in
    :target: http://travis-ci.org/openannotation/annotator
 .. |Stories in Ready| image:: https://badge.waffle.io/openannotation/annotator.png?label=ready&title=Ready
    :target: https://waffle.io/openannotation/annotator
+.. |Browser Status| image:: https://saucelabs.com/browser-matrix/krues8dr-annotator.svg
+   :target: https://saucelabs.com/u/krues8dr-annotator
