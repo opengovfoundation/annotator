@@ -168,6 +168,50 @@ module.exports = function(grunt) {
           // { platform: 'Windows 8.1', browserName: 'googlechrome', version: '34' },
           // { platform: 'Windows 8.1', browserName: 'googlechrome', version: '35' },
           // { platform: 'Windows 8.1', browserName: 'googlechrome', version: '36' },
+
+          // OS X
+
+          // OS X 10.8 (Mountain Lion)
+
+          // { platform: 'OS X 10.8',   browserName: 'googlechrome', version: '27' },
+          // { platform: 'OS X 10.8',   browserName: 'googlechrome', version: '28' },
+          // { platform: 'OS X 10.8',   browserName: 'googlechrome', version: '29' }, // Not available in SL for Selenium.
+          // { platform: 'OS X 10.8',   browserName: 'googlechrome', version: '30' }, // Not available in SL for Selenium.
+          // { platform: 'OS X 10.8',   browserName: 'googlechrome', version: '31' },
+          // { platform: 'OS X 10.8',   browserName: 'googlechrome', version: '32' },
+          // { platform: 'OS X 10.8',   browserName: 'googlechrome', version: '33' },
+          // { platform: 'OS X 10.8',   browserName: 'googlechrome', version: '34' },
+          // { platform: 'OS X 10.8',   browserName: 'googlechrome', version: '35' },
+          // { platform: 'OS X 10.8',   browserName: 'safari',       version: '6'  },
+
+          // OS X 10.9 (Mavericks)
+
+          // { platform: 'OS X 10.9',   browserName: 'firefox',      version: '10' },
+          // { platform: 'OS X 10.9',   browserName: 'firefox',      version: '11' },
+          // { platform: 'OS X 10.9',   browserName: 'firefox',      version: '12' },
+          // { platform: 'OS X 10.9',   browserName: 'firefox',      version: '13' },
+          // { platform: 'OS X 10.9',   browserName: 'firefox',      version: '14' },
+          // { platform: 'OS X 10.9',   browserName: 'firefox',      version: '15' },
+          // { platform: 'OS X 10.9',   browserName: 'firefox',      version: '16' },
+          // { platform: 'OS X 10.9',   browserName: 'firefox',      version: '17' },
+          // { platform: 'OS X 10.9',   browserName: 'firefox',      version: '18' },
+          // { platform: 'OS X 10.9',   browserName: 'firefox',      version: '19' },
+          // { platform: 'OS X 10.9',   browserName: 'firefox',      version: '20' },
+          // { platform: 'OS X 10.9',   browserName: 'firefox',      version: '21' },
+          // { platform: 'OS X 10.9',   browserName: 'firefox',      version: '22' },
+          // { platform: 'OS X 10.9',   browserName: 'firefox',      version: '23' },
+          // { platform: 'OS X 10.9',   browserName: 'firefox',      version: '24' },
+          // { platform: 'OS X 10.9',   browserName: 'firefox',      version: '25' },
+          // { platform: 'OS X 10.9',   browserName: 'firefox',      version: '26' },
+          // { platform: 'OS X 10.9',   browserName: 'firefox',      version: '27' },
+          // { platform: 'OS X 10.9',   browserName: 'firefox',      version: '28' },
+          // { platform: 'OS X 10.9',   browserName: 'firefox',      version: '29' },
+          // { platform: 'OS X 10.9',   browserName: 'firefox',      version: '30' },
+          // { platform: 'OS X 10.9',   browserName: 'googlechrome', version: '31' },
+          // { platform: 'OS X 10.9',   browserName: 'googlechrome', version: '32' },
+          // { platform: 'OS X 10.9',   browserName: 'googlechrome', version: '33' },
+          // { platform: 'OS X 10.9',   browserName: 'googlechrome', version: '34' },
+          // { platform: 'OS X 10.9',   browserName: 'googlechrome', version: '35' },
           ],
 
           onTestComplete: function(result, callback) {
