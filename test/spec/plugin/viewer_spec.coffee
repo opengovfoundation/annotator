@@ -21,6 +21,8 @@ describe 'Viewer plugin', ->
 
     beforeEach ->
       plugin = new Viewer()
+      # Set the core on the plugin and vice-versa.
+      # The old plugin.configure() is deprecated
       plugin.core = core
       core.editor = plugin
       plugin.pluginInit()
@@ -154,6 +156,8 @@ describe 'Viewer plugin', ->
 
     beforeEach ->
       plugin = new Viewer()
+      # Set the core on the plugin and vice-versa.
+      # The old plugin.configure() is deprecated
       plugin.core = core
       core.editor = plugin
       plugin.pluginInit()
@@ -168,6 +172,8 @@ describe 'Viewer plugin', ->
       plugin = new Viewer({
         showEditButton: true
       })
+      # Set the core on the plugin and vice-versa.
+      # The old plugin.configure() is deprecated
       plugin.core = core
       core.editor = plugin
       plugin.pluginInit()
@@ -202,6 +208,8 @@ describe 'Viewer plugin', ->
       plugin = new Viewer({
         showDeleteButton: true
       })
+      # Set the core on the plugin and vice-versa.
+      # The old plugin.configure() is deprecated
       plugin.core = core
       core.editor = plugin
       plugin.pluginInit()
@@ -236,6 +244,8 @@ describe 'Viewer plugin', ->
       plugin = new Viewer({
         defaultFields: false
       })
+      # Set the core on the plugin and vice-versa.
+      # The old plugin.configure() is deprecated
       plugin.core = core
       core.editor = plugin
       plugin.pluginInit()
@@ -259,6 +269,8 @@ describe 'Viewer plugin', ->
         activityDelay: 50,
         inactivityDelay: 200
       })
+      # Set the core on the plugin and vice-versa.
+      # The old plugin.configure() is deprecated
       plugin.core = core
       core.editor = plugin
       plugin.pluginInit()

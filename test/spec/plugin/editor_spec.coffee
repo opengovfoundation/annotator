@@ -17,6 +17,8 @@ describe 'Editor plugin', ->
 
     beforeEach ->
       plugin = new Editor()
+      # Set the core on the plugin and vice-versa.
+      # The old plugin.configure() is deprecated
       plugin.core = core
       core.editor = plugin
       plugin.pluginInit()
@@ -201,6 +203,8 @@ describe 'Editor plugin', ->
       plugin = new Editor({
         defaultFields: false
       })
+      # Set the core on the plugin and vice-versa.
+      # The old plugin.configure() is deprecated
       plugin.core = core
       core.editor = plugin
       plugin.pluginInit()
@@ -221,6 +225,8 @@ describe 'Editor plugin', ->
 
     beforeEach ->
       plugin = new Editor()
+      # Set the core on the plugin and vice-versa.
+      # The old plugin.configure() is deprecated
       plugin.core = core
       core.editor = plugin
       plugin.pluginInit()
