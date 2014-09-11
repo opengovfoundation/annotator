@@ -1,6 +1,5 @@
 BackboneEvents = require('backbone-events-standalone')
 h = require('helpers')
-assert = require('assertive-chai').assert
 TextSelector = require('../../../src/plugin/textselector')
 Range = require('xpath-range').Range
 Util = require('../../../src/util')

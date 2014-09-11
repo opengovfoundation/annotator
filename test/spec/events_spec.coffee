@@ -1,4 +1,3 @@
-assert = require('assertive-chai').assert
 Events = require('../../src/events')
 Promise = require('../../src/util').Promise
 

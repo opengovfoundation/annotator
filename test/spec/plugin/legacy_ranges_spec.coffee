@@ -1,6 +1,5 @@
 BackboneEvents = require('backbone-events-standalone')
 h = require('helpers')
-assert = require('assertive-chai').assert
 LegacyRanges = require('../../../src/plugin/legacyranges')
 Range = require('xpath-range').Range
 Util = require('../../../src/util')

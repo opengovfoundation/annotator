@@ -1,5 +1,4 @@
 h = require('helpers')
-assert = require('assertive-chai').assert
 Annotator = require('../../src/annotator')
 Plugin = require('../../src/plugin')
 $ = require('../../src/util').$

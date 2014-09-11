@@ -1,4 +1,3 @@
-assert = require('assertive-chai').assert
 Events = require('../../../src/events')
 Editor = require('../../../src/plugin/editor')
 Util = require('../../../src/util')

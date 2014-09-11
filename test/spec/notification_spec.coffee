@@ -1,4 +1,3 @@
-assert = require('assertive-chai').assert
 Notification = require('../../src/notification')
 
 

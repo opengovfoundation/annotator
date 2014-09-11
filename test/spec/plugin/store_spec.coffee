@@ -1,4 +1,3 @@
-assert = require('assertive-chai').assert
 Annotator = require('annotator')
 Store = require('../../../src/plugin/store')
 $ = Annotator.Util.$

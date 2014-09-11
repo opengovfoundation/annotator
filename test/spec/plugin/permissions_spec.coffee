@@ -1,4 +1,3 @@
-assert = require('assertive-chai').assert
 Annotator = require('annotator')
 Permissions = require('../../../src/plugin/permissions')
 $ = Annotator.Util.$

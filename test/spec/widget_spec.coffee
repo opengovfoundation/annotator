@@ -1,4 +1,3 @@
-assert = require('assertive-chai').assert
 $ = require('../../src/util').$
 Widget = require('../../src/widget')
 
