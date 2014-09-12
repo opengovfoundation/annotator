@@ -1,3 +1,4 @@
+assert = require('assert')
 h = require('helpers')
 Util = require('../../src/util')
 $ = Util.$
