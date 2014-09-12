@@ -1,4 +1,4 @@
-assert = require('assert')
+assert = require('assertive-chai').assert
 h = require('helpers')
 Util = require('../../src/util')
 $ = Util.$
