@@ -1,3 +1,4 @@
+assert = require('assertive-chai').assert
 h = require('helpers')
 Util = require('../../../src/util')
 Auth = require('../../../src/plugin/auth')

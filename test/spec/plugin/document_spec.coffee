@@ -1,3 +1,4 @@
+assert = require('assertive-chai').assert
 Util = require('../../../src/util')
 Document = require('../../../src/plugin/document')
 $ = Util.$

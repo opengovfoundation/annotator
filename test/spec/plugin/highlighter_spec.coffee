@@ -1,3 +1,4 @@
+assert = require('assertive-chai').assert
 BackboneEvents = require('backbone-events-standalone')
 Highlighter = require('../../../src/plugin/highlighter')
 Range = require('xpath-range').Range

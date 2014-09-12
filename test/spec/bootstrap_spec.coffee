@@ -25,7 +25,7 @@ window._annotatorConfig =
       delete: ["Aron"]
       admin: ["Aron"]
 
-
+assert = require('assertive-chai').assert
 Annotator = require('annotator')
 $ = require('../../src/util').$
 require('../../src/bootstrap')

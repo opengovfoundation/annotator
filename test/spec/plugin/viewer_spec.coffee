@@ -1,3 +1,4 @@
+assert = require('assertive-chai').assert
 BackboneEvents = require('backbone-events-standalone')
 h = require('helpers')
 Viewer = require('../../../src/plugin/viewer')

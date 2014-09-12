@@ -1,3 +1,4 @@
+assert = require('assertive-chai').assert
 Filter = require('../../../src/plugin/filter')
 $ = require('../../../src/util').$
 
