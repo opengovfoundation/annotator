@@ -5,10 +5,12 @@
     <title>JS annotation test</title>
 
     <script src="lib/vendor/jquery.js"></script><!-- dynamically provided -->
-    <!--[if lt IE 9]>
-    <script src="lib/vendor/json2.js"></script>
-    <![endif]-->
     <script src="/lib/vendor/wgxpath.install.js"></script>
+    <script>wgxpath.install();</script>
+
+    <!--[if lte IE 9]>
+        <script src="/node_modules/annotator-ie/pkg/annotator-ie-bundle.min.js"></script>
+    <![endif]-->
 
     <script src="lib/annotator.js"></script>
     <script src="lib/plugin/store.js"></script>
